@@ -1,6 +1,5 @@
+let cm;
+cm = 50000;
 
-   
 
-function LengthConverter(valNum) {
-  document.getElementById("outputKM").innerHTML=valNum/100000;
-}
+document.write("Length in Kilometer ="+cm/100000);
